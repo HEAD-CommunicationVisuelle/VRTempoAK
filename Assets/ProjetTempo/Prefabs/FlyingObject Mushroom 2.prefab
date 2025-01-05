@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 167764097142442188}
   - component: {fileID: 9182669897699189687}
   - component: {fileID: 2079097925907194099}
+  - component: {fileID: -8496472556963105504}
   m_Layer: 0
   m_Name: FlyingObject Mushroom 2
   m_TagString: Untagged
@@ -132,6 +133,33 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
+--- !u!54 &-8496472556963105504
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471128940782155627}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5383207996364699676
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +380,22 @@ PrefabInstance:
     - target: {fileID: 4347404478267446403, guid: 754ad8899d5084b43a8c3ce7e8029ec0, type: 3}
       propertyPath: m_Name
       value: mushroom brown 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046430728759337143, guid: 754ad8899d5084b43a8c3ce7e8029ec0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3751834
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046430728759337143, guid: 754ad8899d5084b43a8c3ce7e8029ec0, type: 3}
+      propertyPath: m_Size.z
+      value: 0.3184827
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046430728759337143, guid: 754ad8899d5084b43a8c3ce7e8029ec0, type: 3}
+      propertyPath: m_Center.x
+      value: 0.013598748
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046430728759337143, guid: 754ad8899d5084b43a8c3ce7e8029ec0, type: 3}
+      propertyPath: m_Center.z
+      value: -0.09007606
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
