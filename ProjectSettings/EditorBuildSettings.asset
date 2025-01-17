@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/ProjetTempo/Scenes/TempoAK test 1.unity
+    path: Assets/ProjetTempoAK/Scenes/TempoAK test 1.unity
     guid: 3ada83d9e35ca44bfa1cdd33f923697c
   - enabled: 0
-    path: Assets/Samples/XR Interaction Toolkit/3.0.6/Starter Assets/DemoScene.unity
+    path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
@@ -18,16 +18,16 @@ EditorBuildSettings:
     path: Assets/Demo/Scenes/BombDemo.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Samples/XR Interaction Toolkit/3.0.6/Hands Interaction Demo/HandsDemoScene.unity
+    path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoScene.unity
     guid: 3ff35cecbcc52cc42945cf531638a60a
   - enabled: 1
-    path: Assets/ProjetTempo/Scenes/TempoAK Accueil.unity
+    path: Assets/ProjetTempoAK/Scenes/TempoAK Accueil.unity
     guid: ced371f818015454ebcf614cf76a960e
-  - enabled: 1
+  - enabled: 0
     path: Assets/ProjetTempo/Scenes/TempoAK level 1.unity
     guid: a96119938cdf341649674542382f3cc5
   - enabled: 1
-    path: Assets/ProjetTempo/Scenes/TempoAK level 2.unity
+    path: Assets/ProjetTempoAK/Scenes/TempoAK level 2.unity
     guid: 9efee2f13f3924af68deb76e07eca6f7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
